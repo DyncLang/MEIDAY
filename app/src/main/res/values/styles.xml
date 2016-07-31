@@ -32,4 +32,25 @@
         <item name="android:background">@color/black_overlay</item>
     </style>
 
+    <style name="PropertyValue">
+        <item name="android:textSize">@dimen/txt_size_16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/blue_90_alpha</item>
+        <item name="android:paddingLeft">18.0dip</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:paddingRight">18.0dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+        <item name="android:minWidth">90.0dip</item>
+    </style>
+
+    <style name="PropertyTitle">
+        <item name="android:textSize">@dimen/txt_size_16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/black_90_alpha</item>
+        <item name="android:paddingLeft">25.0dip</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:paddingRight">25.0dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+    </style>
+
 </resources>

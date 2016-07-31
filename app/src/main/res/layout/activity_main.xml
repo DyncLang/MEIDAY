@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
 
     android:layout_height="match_parent"
-    tools:context="cn.mei.day.MainActivity">
+    tools:context="cn.mei.day.ui.activity.MainActivity">
 
     <android.support.v7.widget.RecyclerView
 

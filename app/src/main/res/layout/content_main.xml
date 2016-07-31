@@ -5,7 +5,7 @@
     android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cn.mei.day.MainActivity"
+    tools:context="cn.mei.day.ui.activity.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <TextView

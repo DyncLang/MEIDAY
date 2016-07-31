@@ -4,4 +4,30 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="item_height">80dp</dimen>
+    <dimen name="btn_width">40dp</dimen>
+    <dimen name="top_margin">16dp</dimen>
+    <dimen name="tool_margin_left">20dp</dimen>
+
+
+    <dimen name="cd_edit_options_image_height">48.0dip</dimen>
+
+    <!--字体大小-->
+    <dimen name="title_size">16.0sp</dimen>
+    <dimen name="title_text_size">12.0sp</dimen>
+    <dimen name="txt_big">55.0sp</dimen>
+    <dimen name="txt_normal">40.0sp</dimen>
+    <dimen name="txt_size_12">12.0sp</dimen>
+    <dimen name="txt_size_14">14.0sp</dimen>
+    <dimen name="txt_size_15">15.0sp</dimen>
+    <dimen name="txt_size_16">16.0sp</dimen>
+    <dimen name="txt_size_17">17.0sp</dimen>
+    <dimen name="txt_size_18">18.0sp</dimen>
+    <dimen name="txt_size_20">20.0sp</dimen>
+    <dimen name="txt_size_22">22.0sp</dimen>
+    <dimen name="txt_size_24">24.0sp</dimen>
+    <dimen name="txt_size_26">25.0sp</dimen>
+    <dimen name="txt_size_28">28.0sp</dimen>
+    <dimen name="txt_size_48">48.0sp</dimen>
+    <dimen name="txt_small">30.0sp</dimen>
+
 </resources>

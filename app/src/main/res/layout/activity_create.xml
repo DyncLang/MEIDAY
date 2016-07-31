@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_create_bg"
+    tools:context="cn.mei.day.ui.activity.CreateActivity">
+
+    <include layout="@layout/header_create_day" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp">
+
+        <cn.mei.day.ui.widget.TextViewWithChineseFont
+            android:id="@+id/title_title"
+            style="@style/PropertyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/cd_edit_options_image_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/txt_title" />
+
+        <cn.mei.day.ui.widget.TextViewWithChineseFont
+            android:id="@+id/title_current"
+            style="@style/PropertyValue"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/cd_edit_options_image_height"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/title_title"
+            android:ellipsize="end"
+            android:hint="@string/please_input"
+            android:singleLine="true"
+            android:textColorHint="@color/white_70_alpha" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
